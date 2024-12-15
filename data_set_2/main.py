@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 from sklearn import metrics  # إضافة هذه السطر
 
 # قراءة البيانات
-file_path = 'accident_data_improved.csv'  # استخدم المسار الصحيح للملف
+file_path = './data_set_2/accident_data_improved.csv'  # استخدم المسار الصحيح للملف
 X = pd.read_csv(file_path)
 
 # التحقق من القيم المفقودة

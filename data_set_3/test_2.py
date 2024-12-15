@@ -10,7 +10,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, precision_score, recall_score
 
 # Load the dataset
-data_path = "dataset_traffic_accident_prediction1.csv"  # Replace with your dataset path
+data_path = "./data_set_3/dataset_traffic_accident_prediction1.csv"  # Replace with your dataset path
 data = pd.read_csv(data_path)
 
 # Display initial dataset information

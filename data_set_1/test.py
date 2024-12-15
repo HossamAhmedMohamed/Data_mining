@@ -14,7 +14,7 @@ from sklearn.metrics import classification_report
 import matplotlib.pyplot as plt
 
 # قراءة البيانات
-X = pd.read_csv('RTA Dataset (2).csv')
+X = pd.read_csv('./data_set_1/RTA Dataset (2).csv')
 X
 X.info()
 X.isnull()
